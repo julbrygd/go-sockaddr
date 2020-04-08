@@ -13,7 +13,7 @@ type routeInfo struct {
 	cmds map[string][]string
 }
 
-// NewRouteInfo returns a BSD-specific implementation of the RouteInfo
+// NewRouteInfo returns a AIX-specific implementation of the RouteInfo
 // interface.
 func NewRouteInfo() (routeInfo, error) {
 	return routeInfo{
